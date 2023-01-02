@@ -24,6 +24,8 @@ html {
    width: 400px;
    padding: 1.5rem;
    color: #333652;
+   /* background-color: yellow; */
+   
 }
 
 .search-bar {
@@ -31,26 +33,31 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background-color: red; */
+    padding: 1.5rem 0;
+   
 }
 
     .search-bar label {
         width: 300px;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 2rem;
+        /* margin-bottom: 2rem; */
     }
 
     .search-input {
-        margin-bottom: 20px;
+        margin-bottom: 1em;
         height: 30px;
         border: none;
         border-radius: 0.5rem;
         padding: 0.5rem;
         width: 300px;
+        outline: none;
     }
 
 .table-container  {
     width: 100%;
+    /* background-color: limegreen; */
 }    
 
     .table-container tr {
